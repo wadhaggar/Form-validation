@@ -1,0 +1,112 @@
+/******************
+ CSS COMMUN 
+*******************/
+*{
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+}
+h1, h2{
+    color: #ae5fce;
+    text-align: center;
+    margin: 20px auto;
+}
+form{ 
+    background:khaki;
+    padding: 80px 35px;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 4px;
+    text-align: center;
+}
+input{
+    padding: 7px;
+    margin: 5px;
+    font-size: 1.2rem;
+    border-radius: 2px;
+    width: 30%;
+}
+button{
+    display: block;
+    background: #fff;
+    color:  #5b78c7;
+    border-radius: 4px;
+    width: 120px;
+    margin: 25px auto 0px auto;
+    padding: 8px;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+button:hover{
+    background: #5b78c7;
+    color: #fff;
+}
+/** *****************
+CSS HEADER 
+********************/
+header{
+    background: #5b78c7;
+    /* height: auto; */
+}
+header nav{
+    color: #f4f4f4;
+    display: flex;
+    justify-content: right;
+    flex-direction: row;
+    padding: 25px;
+    width: 50%;
+    margin-left: 50%;
+}
+header nav a:hover{
+    background: darkblue;
+    border-radius: 2px;
+    transform: translateY(5px);
+}
+header a{
+    color: #f4f4f4;
+    padding: 10px 25px;
+}
+/**  CSS MAIN */
+.container{
+    width: 80%;
+    margin: 25px auto;
+}
+.container .flex{
+    display: flex;  
+}
+.container .flex p{
+    padding: 15px;
+    
+}
+
+/* La partie de l'article avec un photo, je vais fair float */
+.article-container{
+    margin: 20px auto;
+    border: 5px solid brown ;
+}
+.article-container h2{
+    border: 3px solid rgb(75, 37, 228) ;
+    color: rgb(52, 79, 79);
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Hahmlet', serif;;
+}
+.article-container img{
+    border: 3px solid rgba(11, 1, 1, 0.889) ;
+    float: left;
+    margin-right: 15px;
+}
+.article-container p{
+    border: 3px solid rgb(247, 192, 10) ;
+    /* padding-left: 20px; */
+    margin: 10px;
+}
+/**   CSS FOOTER   */
+footer{
+    background: #e7e7e7;
+    height: 10vh;
+}
+
+/**  MEDIA QUEIRES   */
